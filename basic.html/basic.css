@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center
+    margin: 0;
+    height: 100vh;
+}
+.main{
+    background-color: aqua;
+    height: 40vh;
+    width: 40vh;
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 200;
+}
+.inputdata1{
+    height: 10vh;
+    font-size: 30px;
+    
+}
+.inputdata2{
+    height: 10vh;
+    font-size: 30px;
+    padding:5px;
+    
+
+}
+.inputdata3{
+    height: 10vh;
+    font-size: 30px;
+    padding: 5px;
+
+
+}
+.inputdata4 button[type="submit"]{
+     height: 5vh;
+     width: 20vh;
+     background-color:lightblue;
+     border-radius: 70vh; 
+     
+}
+.inputdata4{
+    padding: 20px;    
+}
+.inputdata label,[type="text"],[type="email"],[type="password"]{
+    background-color: lightblue;
+    border-radius: 50vh; 
+    margin: 10px;  
+}
+    
